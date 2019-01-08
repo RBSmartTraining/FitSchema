@@ -1,2 +1,3 @@
-# trainml
-Data Schema for recording fitness activities
+# FitSchema
+
+Data Schema for fitness training and body data.
