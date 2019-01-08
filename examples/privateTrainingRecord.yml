@@ -1,7 +1,7 @@
 # 一节私教课
 # 需至少含有一个attendee和一个plan，其余可选
 privatetrainingsession:
-createdon: 2019-02-01 12:00:00
+  createdon: 2019-02-01 12:00:00
 
 # 参与人
 # 对于私教课记录，至少含有一个trainer和一个trainee。
