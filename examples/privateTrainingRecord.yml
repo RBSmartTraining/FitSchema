@@ -1,0 +1,116 @@
+# 一节私教课
+# 需至少含有一个attendee和一个plan，其余可选
+privatetrainingsession:
+createdon: 2019-02-01 12:00:00
+
+# 参与人
+# 对于私教课记录，至少含有一个trainer和一个trainee。
+  attendee:
+    trainer:
+      - name: Alice
+      - id: 1
+      - tel: +86 13888888888
+      - creator
+    trainees:
+      trainee:
+      - name: Bosn
+      - id: 1
+      - tel: +86 13999999999
+
+# 位置
+# 可以是经纬度、地理信息ID、外部ID等等
+  location:
+    gym:
+      - name: Charlie's Gym
+      - id: 1
+      - lat: 0.0 E
+      - lon: 0.0 N
+
+# 时间
+# 至少含有start，可选含有end、duration中的一个
+# 可以用人读时间，也可以用unixtime，予以标记
+  time:
+    timezone: Asia/Shanghai
+    start:
+      - date: 2019-02-01
+      - time: 12:00:00
+    end:
+      - date: 2019-02-01
+      - time: 13:00:00
+
+# 计划
+# 至少包括一个actiongroup，每个actiongroup至少包括一一个action
+  plan:
+    goal:
+      name: 胸变大
+      category: 增肌
+      affected:
+        muscle:
+          - name: 胸大肌
+          - primary: yes
+        muscle:
+          - name: 肱三头肌
+    actiongroup:
+      name: 各种推
+      order: 1
+      - action:
+          name: 平板杠铃卧推
+          order: 1
+          reps: 12
+          sets: 5
+      - action:
+          name: 哑铃卧腿
+          order: 2
+          reps: 12
+          sets: 5
+
+# 记录
+# 实际训练的结果 （此处如何跟plan里的内容对应？）
+# 如果没记录就没有这个元素
+  action:
+    actiongroup:
+      order: 1
+      - action:
+          name: 平板杠铃卧推
+          order: 1
+          - set:
+              order: 1
+              reps:
+                - rep:
+                    order: 1
+                    weight: 60kg
+                - rep:
+                    order: 2
+                    weight: 60kg
+                - rep:
+                    order: 3
+                    weight: 50kg
+                - rep:
+                    order: 4
+                    weight: 50kg
+                -rep:
+                    order: 5
+                    weight: 50kg
+                    duration: 2s
+          - set:
+              order: 2
+              reps:
+                - rep:
+                    order: 1
+                    weight: 60kg
+                - rep:
+                    order: 2
+                    weight: 60kg
+                - rep:
+                    order: 3
+                    weight: 50kg
+                - rep:
+                    order: 4
+                    weight: 50kg
+                -rep:
+                    order: 5
+                    weight: 50kg
+                    duration: 2s
+
+# 可以加入别的东西：
+notes: 动作没做到位就跑了
