@@ -1,0 +1,149 @@
+{
+  "id": 10000,
+  "startTime": "1547024735699",
+  "trainer": {
+    "name": "Bosn"
+  },
+  "trainee": {
+    "name": "RR"
+  },
+  "motionGroup": {
+    "id": 361605,
+    "order": 1,
+    "name": "臀腿  ",
+    "isFinished": true,
+    "isShared": false,
+    "finishDate": "2019-01-09",
+    "sleepLevel": 2,
+    "appetiteLevel": 2,
+    "stateLevel": 2,
+    "commentInner": "",
+    "commentOuter": "",
+    "trainer": {
+      "id": 508,
+      "name": "黄龙"
+    },
+    "motionList": [
+      {
+        "motionId": 40886,
+        "name": "跑步机爬坡",
+        "actionId": 1928594,
+        "data": ",,300,|,,,|,,,|,,,|,,,",
+        "fbComplete": null,
+        "fbDifficulty": null,
+        "memberComments": null,
+        "trainerComments": "坡度8，速度4.5"
+      },
+      {
+        "motionId": 41370,
+        "name": "筋膜放松",
+        "actionId": 1928595,
+        "data": ",12,,|,,,|,,,|,,,|,,,",
+        "fbComplete": null,
+        "fbDifficulty": null,
+        "memberComments": null,
+        "trainerComments": "大腿前内外"
+      },
+      {
+        "motionId": 40131,
+        "name": "平板支撑",
+        "actionId": 1928596,
+        "data": ",,60,|,,,|,,,|,,,|,,,",
+        "fbComplete": null,
+        "fbDifficulty": null,
+        "memberComments": null,
+        "trainerComments": "需保持加强"
+      },
+      {
+        "motionId": 41977,
+        "name": "手支撑侧移",
+        "actionId": 1928597,
+        "data": ",10,,|,,,|,10,,|,,,|,,,",
+        "fbComplete": null,
+        "fbDifficulty": null,
+        "memberComments": null,
+        "trainerComments": "瑜伽垫上3来回"
+      },
+      {
+        "motionId": 41162,
+        "name": "单脚支撑手触地",
+        "actionId": 1928598,
+        "data": ",12,,|,,,|,,,|,,,|,,,",
+        "fbComplete": null,
+        "fbDifficulty": null,
+        "memberComments": null,
+        "trainerComments": null
+      },
+      {
+        "motionId": 40492,
+        "name": "杠铃深蹲",
+        "actionId": 1928599,
+        "data": "40,10,,60|repeat|10",
+        "fbComplete": null,
+        "fbDifficulty": null,
+        "memberComments": null,
+        "trainerComments": null
+      },
+      {
+        "motionId": 41975,
+        "name": "哑铃单脚硬拉",
+        "actionId": 1928600,
+        "data": ",,,|,,,|,,,|7.5,12,,30|,,,",
+        "fbComplete": null,
+        "fbDifficulty": null,
+        "memberComments": null,
+        "trainerComments": null
+      },
+      {
+        "motionId": 40626,
+        "name": "蚌式",
+        "actionId": 1928643,
+        "data": ",,,|,,,|,12,,|,,,|,,,",
+        "fbComplete": null,
+        "fbDifficulty": null,
+        "memberComments": null,
+        "trainerComments": null
+      },
+      {
+        "motionId": 40450,
+        "name": "大腿前侧拉伸",
+        "actionId": 1928644,
+        "data": ",,30,|,,,|,,,|,,,|,,,",
+        "fbComplete": null,
+        "fbDifficulty": null,
+        "memberComments": null,
+        "trainerComments": null
+      },
+      {
+        "motionId": 40405,
+        "name": "肩大腿后侧热身",
+        "actionId": 1928645,
+        "data": "",
+        "fbComplete": null,
+        "fbDifficulty": null,
+        "memberComments": null,
+        "trainerComments": null
+      },
+      {
+        "motionId": 40449,
+        "name": "大腿后侧拉伸",
+        "actionId": 1928646,
+        "data": ",,30,|,,,|,,,|,,,|,,,",
+        "fbComplete": null,
+        "fbDifficulty": null,
+        "memberComments": null,
+        "trainerComments": null
+      },
+      {
+        "motionId": 40445,
+        "name": "臀部拉伸",
+        "actionId": 1928647,
+        "data": ",,,30|,,,|,,,|,,,|,,,",
+        "fbComplete": null,
+        "fbDifficulty": null,
+        "memberComments": null,
+        "trainerComments": null
+      }
+    ]
+  }
+}
