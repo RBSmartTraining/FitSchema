@@ -1,11 +1,9 @@
 {
   "id": 10000,
   "startTime": "1547024735699",
+  "endTime": "1547024835699",
   "trainer": {
     "name": "Bosn"
-  },
-  "trainee": {
-    "name": "RR"
   },
   "motionGroup": {
     "id": 361605,
@@ -21,7 +19,7 @@
     "commentOuter": "",
     "trainer": {
       "id": 508,
-      "name": "黄龙"
+      "name": "RR"
     },
     "motionList": [
       {
